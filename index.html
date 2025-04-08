@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NiacooKIeSS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+    }
+    header {
+      background-color: #d2691e;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card .info {
+      padding: 1rem;
+      text-align: center;
+    }
+    .card .info h3 {
+      margin: 0.5rem 0;
+    }
+    .card .info p {
+      color: #888;
+      margin: 0.2rem 0 1rem;
+    }
+    .order-section {
+      text-align: center;
+      margin: 2rem;
+    }
+    .order-btn {
+      display: inline-block;
+      background-color: #d2691e;
+      color: white;
+      padding: 0.75rem 2rem;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+    .order-btn:hover {
+      background-color: #a44e14;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f0e5da;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NiacooKIeSS</h1>
+    <p>Kukis Homemade Lezat dan Fresh dari Oven!</p>
+  </header>
+
+  <section class="gallery">
+    <div class="card">
+      <a href="coklat.html">
+        <img src="Gluten-Free Chocolate Chip Cookies (5-Star Recipe!) - Meaningful Eats.jpg" alt="Cookies Coklat">
+        <div class="info">
+          <h3>Cookies Coklat</h3>
+          <p>Rp 25.000 / pack</p>
+        </div>
+      </a>
+    </div>    
+  
+    <div class="card">
+      <a href="vanila.html">
+        <img src="White Chocolate Chip Cookies (Soft and Chewy Recipe) - Olives + Thyme.jpg" alt="Cookies Vanila">
+        <div class="info">
+          <h3>Cookies Vanila</h3>
+          <p>Rp 22.000 / pack</p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="redvelvet.html">
+        <img src="Red Velvet Cream Cheese Filled Chunky Cookie.jpg" alt="Cookies Redvelvet">
+        <div class="info">
+          <h3>Cookies Redvelvet</h3>
+          <p>Rp 27.000 / pack</p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="12pcs.html">
+        <img src="DOUBLE CHOCOLATENEW YORK COOKIES12 Pack.jpg" alt="Cookies 12 pcs/RV4 CC4 VNL4">
+        <div class="info">
+          <h3>Cookies 12 pcs/RV4 CC4 VNL 4</h3>
+          <p>Rp 275.000 / pack</p>
+        </div>
+      </a>
+    </div>
+  </section>  
+
+  <div class="order-section">
+    <a class="order-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20cookies%20dari%20website%20NiacooKIeSS" target="_blank">Order via WhatsApp</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 niac00KIeSS | Instagram: @niac00KIeSS</p>
+  </footer>
+
+</body>
+</html>
